@@ -26,4 +26,24 @@ fun main(){
     }while (x < 5)
 
 
+    // break: terminates the loop and transfers control to the statement
+    //        following the loop
+
+    for (i in 1..10){
+        if (i == 5){
+            break
+        }
+        println(i)
+    }
+
+    // continue: Skips the current iteration and proceeds to the next
+    //           iteration of the loop
+
+    for (i in 1..10){
+        if ((i % 2)==0){
+            continue
+        }
+        println(i)
+    }
+
 }
