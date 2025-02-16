@@ -1,4 +1,4 @@
-package com.arsoftltd.kotlinbasics
+package com.arsoftltd.kotlinbasics.basics
 
 fun main(){
 
