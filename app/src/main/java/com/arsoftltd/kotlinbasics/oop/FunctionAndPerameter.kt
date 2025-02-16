@@ -12,7 +12,7 @@ fun main(){
 //    }
 
     sayHello("Tuba")
-    var result = sumTwoNumbers(5,3)
+    var result = sumTwoNumbers(5.3,3.7)
 
     println(result)
 
@@ -30,4 +30,10 @@ fun sumTwoNumbers(x:Int, y: Int):Int{
     return z
 }
 
+// Function overloading: allows you define multiple functions
+// with the same name in the same scope but with diff. parameters
 
+fun sumTwoNumbers(x:Double, y:Double):Double{
+    var z = x+y
+    return z
+}
