@@ -12,6 +12,12 @@ fun main(){
 
 
 }
+
+// The primary Constructor: define and initialize properties
+// for a class
+
+// class MyClass(parameter1:Type, parameter2:Type){}
+
 class Robot(val name: String){
     fun walk(){
         println("The Robot is Walking now...")
