@@ -1,6 +1,6 @@
 package com.arsoftltd.kotlinbasics.oop
 
-class OrdinaryRobot(val name: String){
+class OrdinaryRobot(name: String):GeneralRobot(name){
     fun turnOnLight(){
         println("The light is turn off")
     }
