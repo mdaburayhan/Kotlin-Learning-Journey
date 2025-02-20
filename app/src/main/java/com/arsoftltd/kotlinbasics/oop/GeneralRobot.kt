@@ -1,14 +1,13 @@
 package com.arsoftltd.kotlinbasics.oop
 
-open class GeneralRobot() {
+open class GeneralRobot{
 
     var name:String
-    var modelYear:String
+    var modelYear:String = ""
     // init block: used to execute code when
     // an instance of class is created
     init {
         name = ""
-        modelYear = ""
         println("A new robot is created")
     }
 
@@ -17,13 +16,13 @@ open class GeneralRobot() {
     // Secondary Constructors:
     // Initialize objects
     // Provide different sets of parameters
-    constructor(name:String, modelYear:String):this(){
+    constructor(name:String, modelYear:String){
         this.name = name
         this.modelYear = modelYear
     }
 
     // secondary constructor
-    constructor(name:String):this(){
+    constructor(name:String){
         this.name = name
         this.modelYear = "Unknown Model Year"
     }

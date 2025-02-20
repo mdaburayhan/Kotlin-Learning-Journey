@@ -13,4 +13,7 @@ fun main(){
     firingRobot.fire()
     println(firingRobot2.modelYear)
 
+    val firingRobot3 = FiringRobot("Wax", "2025")
+
+
 }
