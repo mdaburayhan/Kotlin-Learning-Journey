@@ -9,6 +9,8 @@ fun main(){
     superRobot.cleanHouse()
 
     val firingRobot = FiringRobot("Hero")
+    val firingRobot2 = FiringRobot("Hero2", "2024")
     firingRobot.fire()
+    println(firingRobot2.modelYear)
 
 }
